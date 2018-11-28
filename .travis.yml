@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 language: python
 python: 3.7
 install: "pip install Lektor"
 script: "lektor build"
 deploy:
   provider: script
-=======
-language: python
-python: 3.7
-install: "pip install Lektor"
-script: "lektor build"
-deploy:
-  provider: script
->>>>>>> 9579ae8b6e7995c667b9d1227cfcd81f78e06c8b
   script: "lektor deploy ghpages"
