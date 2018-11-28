@@ -1,0 +1,23 @@
+title: Lektor, Jinja, HTML, & CSS
+---
+pub_date: 2018-11-26
+---
+author: Charles Adams
+---
+body:
+
+I finished watching the Jinja2 vid. Going through the files made available during the install to try and figure out how to best format them to make the page look good.
+
+Followed the steps here:
+
+https://www.getlektor.com/docs/guides/blog/
+
+Found the following vids on YT:
+
+https://www.youtube.com/watch?v=VS-1vD81Pdc
+
+Used the following link to see about adding google fonts to stylesheet via api:
+
+https://developers.google.com/fonts/docs/getting_started
+
+Outside of that, tinkered with using ordered & unordered list, as well as items to make sure the format of lists looked okay.

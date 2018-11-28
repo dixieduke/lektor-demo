@@ -1,0 +1,25 @@
+title: Lektor & Jinja2
+---
+pub_date: 2018-11-23
+---
+author: Charles Adams
+---
+body:
+
+Lektor:
+
+I was simply seeing how I could use CSS/HTML to style the page more to my liking.
+
+Jinja2:
+
+Need to study Jinja2 to utilize Lektor; jinja is about making templates for web pages. 
+
+Watching the following vid:
+
+https://www.youtube.com/watch?v=bxhXQG1qJPM
+
+That vid really didn't deal with Jinja2 in the context of a web framework. I went back to Lektor's documentation for further details regarding Jinja.
+
+Regarding Jinja, I needed to review that documentation for further review as I simply wasn't understanding it based on description found on Lektor's site.
+
+http://jinja.pocoo.org/

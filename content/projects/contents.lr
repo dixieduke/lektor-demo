@@ -1,0 +1,20 @@
+title: Projects
+---
+body:
+
+This is a list of the projects I'm currently working on:
+
+<ol type="1">
+	<li>Blog/Blog site</li>
+		<ol type="i">
+			<li>Just a journal of what I have learned</li>
+			<li>This site should help me with project 2</li>
+		</ol>
+	<li>Statistical analysis site</li>
+		<ol type="i">
+			<li>The subject matter really doesn't matter</li>
+			<li>The intent is to display trends over time</li>
+			<li>Display related visualizations in website</li>
+		</ol>
+</ol>
+

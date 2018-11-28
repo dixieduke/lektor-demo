@@ -1,0 +1,58 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 50px 25px 55px;
+}
+
+a {
+    color: #2a99b6;
+}
+
+a:hover {
+    color: #33bbdf;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    background: #00080a;
+    padding: 20px 30px 25px;
+}
+
+div.page {
+    width: 90%;
+    margin: 0 auto;
+    background: #feffff;
+    padding: 20px 30px 25px;
+}
+
+footer {
+    width: 90%;
+    margin: 0 auto;
+    color: #feffff;
+    background-color: #00080a;
+    padding: 20px 30px 25px;
+}
+
+header h1 {
+    color: #169bbd;
+    margin: 0;
+    font-weight: normal;
+    font-size: 42px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+
+ol li {
+    line-height: 160%;
+}
+

@@ -1,0 +1,15 @@
+Models & templates directory are related in that there is an *.ini file for each .html page in the templates folder (with the exception of the layout.html file).
+
+- .ini files in the models folder have sections with titled enclosed by brackets
+- each section has attributes that have assigned values, kind of like a dictionary
+- The .ini files are models. 
+- models are used to affect the behavior of the data & the admin interface
+- adding something to the .ini files means you are adding a field to the page
+
+Deploying:
+
+1. Build
+
+- default build folder: C:\Users\cadams\AppData\Local\Lektor\Cache\builds\824d8908fa63aa6be1cc100bdbbf11df
+
+2. Deploy

@@ -1,0 +1,20 @@
+title: Welcome to my programming blog!
+---
+body:
+
+I created this site to help me keep track of my progress, things I've learned, and tools that may help others. I was using <a href="https://kanbanflow.com/" target="_blank">kanbanflow</a> to keep track of my time and resources I stumbled upon; while it is a fantastic time management tool, I don't think it really is made to help people keep track cool resources (e.g., sites, vids, etc.). I wanted something that would help me document cool resources I found while learning programming, so I could share those things with other people. I thought a blog would be a perfect tool for such a thing.
+
+I started tinkering with programming on 09.04.18; I started with CS50 and found Python soon after. 
+
+Python really amazes me: 
+
+<ol type="1">
+    <li>It's pretty intuitive--most of the time</li>
+    <li>Seemingly, there is a Python tool for anything you need</li>
+    <li>There are endless (free) learning resources</li>
+    <li>There are great Python podcasts which helps you become more familiar with the platform</li>
+</ol>
+
+My hope is you find something on this site that helps you. I'll share all the neat Python stuff I come across.
+
+
