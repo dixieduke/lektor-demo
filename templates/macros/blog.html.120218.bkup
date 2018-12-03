@@ -5,14 +5,11 @@
   {% else %}
     <h2>{{ post.title }}</h2>
   {% endif %}
-  <button class="collapsible">{{ post.title }}: {{ post.pub_date }}</button>
+    <button class="collapsible">{{ post.pub_date }}</button>
   <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
     <p class="meta">
      Written by
-      --an entry here affects both blog list and individual page--
+      <!--an entry here affects both blog list and individual page-->
       {% if post.twitter_handle %}
         <a href="https://twitter.com/{{ post.twitter_handle
           }}">{{ post.author or post.twitter_handle }}</a>
@@ -21,7 +18,6 @@
       {% endif %}
       on {{ post.pub_date }}
     </p>
-    -->
     <!--this is the body of each blog post, seen on the entry list & each individual post-->
     {{ post.body }}
   </div>
