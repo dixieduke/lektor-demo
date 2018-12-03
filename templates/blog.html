@@ -3,10 +3,9 @@
 {% from "macros/pagination.html" import render_pagination %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-<!--an entry here appears at the top of the page, directly below the menu-->
   {% for child in this.pagination.items %}
-  <!--an entry here appears at the bottom of each entry-->
     {{ render_blog_post(child, from_index=true) }}
   {% endfor %}
+
   {{ render_pagination(this.pagination) }}
 {% endblock %}
