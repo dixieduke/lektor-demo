@@ -1,0 +1,12 @@
+title: Publishing site
+---
+pub_date: 2018-12-03
+---
+author: Charles Adams
+---
+body:
+
+Action: GitHub & Travis CI
+
+Have been having trouble with getting Travis CI to build my lektor page on GH pages; it seems to complete the build on Travis CI without issue (e.g., with 0). The problem was actually in my project config file--I had specified the wrong repo name.
+

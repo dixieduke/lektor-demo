@@ -1,0 +1,26 @@
+title: Lektor & GitHub / Collapsible Menus
+---
+pub_date: 2018-11-28
+---
+author: Charles Adams
+---
+body:
+
+Action: Studied options for deploying Lektor site on GitHub
+
+I can deploy the blog for free in GitHub pages. Need to look into that. Here is a link that might help out:
+
+https://www.getlektor.com/docs/deployment/ghpages/
+
+Here is a YT vid illustrating how to do this:
+
+https://www.youtube.com/watch?v=3pj_EyZIL5A
+
+I could never get this to work. Had to incorporate Travis CI in this process. Kept getting build errors. Will review later.
+
+Worked on getting collapsible menus in my blog posts:
+
+https://www.w3schools.com/howto/howto_js_collapsible.asp
+
+This didn't work, so I'm working on deploying the site as is, and will work on menus later.
+

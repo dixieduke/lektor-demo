@@ -1,0 +1,19 @@
+title: Data Visualization & Lektor
+---
+pub_date: 2018-11-21
+---
+author: Charles Adams
+---
+body:
+
+Action: Studied Altair
+
+Going over Altair documentation regarding their visualizations.
+
+https://altair-viz.github.io/
+
+I'm going over their walkthroughs for charts and data.
+
+Went through their charts, and now going through their user guide.
+
+I wanted to study this Lektor framework so I could learn how to use it. My though is I can set it up for a simple blog. If it works out, I might use it to see if I can set up graphs and such (via Altair).
