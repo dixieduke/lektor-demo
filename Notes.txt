@@ -12,4 +12,3 @@ Deploying:
 
 - default build folder: C:\Users\cadams\AppData\Local\Lektor\Cache\builds\824d8908fa63aa6be1cc100bdbbf11df
 
-2. Deploy
