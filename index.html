@@ -1,0 +1,60 @@
+<!doctype html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600" rel="stylesheet"> 
+<link rel="stylesheet" href="./static/style.css">
+
+<title>Welcome to my programming blog! — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./">Welcome</a></li>
+        
+          <li><a href="./blog/">Blog Entries</a></li>
+        
+          <li><a href="./projects/">Projects</a></li>
+        
+          <li><a href="./resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  <h2>Welcome to my programming blog!</h2>
+  <!--an entry here appears at the top of each page-->
+  <p>I created this site to help me keep track of my progress, things I've learned, and tools that may help others. I was using <a href="https://kanbanflow.com/" target="_blank">kanbanflow</a> to keep track of my time and resources I stumbled upon; while it is a fantastic time management tool, I don't think it really is made to help people keep track cool resources (e.g., sites, vids, etc.). I wanted something that would help me document cool resources I found while learning programming, so I could share those things with other people. I thought a blog would be a perfect tool for such a thing.</p>
+<p>I started tinkering with programming on 09.04.18; I started with CS50 and found Python soon after.</p>
+<p>Python really amazes me:</p>
+<ol type="1">
+    <li>It's pretty intuitive--most of the time</li>
+    <li>Seemingly, there is a Python tool for anything you need</li>
+    <li>There are endless (free) learning resources</li>
+    <li>There are great Python podcasts which helps you become more familiar with the platform</li>
+</ol><p>My hope is you find something on this site that helps you. I'll share all the neat Python stuff I come across.</p>
+
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>

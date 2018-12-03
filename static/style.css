@@ -1,0 +1,100 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 50px 25px 55px;
+}
+
+a {
+    color: #2a99b6;
+}
+
+a:hover {
+    color: #33bbdf;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    background: #00080a;
+    padding: 20px 30px 25px;
+}
+
+div.page {
+    width: 90%;
+    margin: 0 auto;
+    background: #feffff;
+    padding: 20px 30px 25px;
+}
+
+footer {
+    width: 90%;
+    margin: 0 auto;
+    color: #feffff;
+    background-color: #00080a;
+    padding: 20px 30px 25px;
+}
+
+header h1 {
+    color: #169bbd;
+    margin: 0;
+    font-weight: normal;
+    font-size: 42px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+
+ol li {
+    line-height: 160%;
+}
+
+/* Items below were added for collapsable content */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active 
+class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #00080a;
+  color: #fff;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+} 

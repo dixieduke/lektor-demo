@@ -1,0 +1,58 @@
+<!doctype html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600" rel="stylesheet"> 
+<link rel="stylesheet" href="../static/style.css">
+
+<title>Resources — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../">Welcome</a></li>
+        
+          <li><a href="../blog/">Blog Entries</a></li>
+        
+          <li><a href="../projects/">Projects</a></li>
+        
+          <li class="active"><a href="../resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  <h2>Resources</h2>
+  <!--an entry here appears at the top of each page-->
+  <p>I wanted to share some of the resources I have found to be really helpful, so here they are:</p>
+<ol type="1">
+    <li>Corey Schafer's YouTube <a href="https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g
+" target="_blank">channel</a></li>
+    <li>Talk Python To Me (<a href="https://talkpython.fm/" target="_blank">Podcast</a>)</li>
+    <li>Google's Python <a href="https://developers.google.com/edu/python/" target="_blank">Class</a></li>
+    <li><a href="https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x" target="_blank">CS50</a> - Free class with guided learning material</li>
+</ol>
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>
