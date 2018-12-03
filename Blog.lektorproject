@@ -3,4 +3,4 @@ name = Blog
 locale = en_US
 
 [servers.ghpages]
-target = ghpages+https://dixieduke/lektor-blog
+target = ghpages+https://dixieduke/lektor-demo
