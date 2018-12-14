@@ -1,0 +1,79 @@
+<!doctype html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600" rel="stylesheet"> 
+<link rel="stylesheet" href="../../static/style.css">
+
+<title>Lottery &amp; Power BI — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../../blog/">Blog Entries</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>Lottery &amp; Power BI</h2>
+  
+  <button class="collapsible">2018-12-14&emsp;|&emsp;Lottery &amp; Power BI&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-14
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Frequency Distribution Analysis PBI</p>
+<p>Project: Lottery</p>
+<p>Need to determine frequency at which certain numbers show up in the Pick3 lottery. This is to be done in PBI, and published to the site. I imagine this will be some histogram or something like that.</p>
+<p>Need a way to validate my findings are correct.</p>
+<p>Reviewing how to do stats in PBI. Of course, Curbal's YT channel has a lot of content covering this. Here is one I checked out:</p>
+<p><a href="https://www.youtube.com/watch?v=SFWHDWiqXzI&amp;list=PLDz00l_jz6zxc8iinR39euGqFm4SDabBf&amp;index=4">https://www.youtube.com/watch?v=SFWHDWiqXzI&amp;list=PLDz00l_jz6zxc8iinR39euGqFm4SDabBf&amp;index=4</a></p>
+<p>My dates are okay, but PBI is changing the year in one of my dates, which causes Sundays to appear in the reports; the lottery doesn't issue #s on Sundays. Trying to figure out how to change the data prior to importing into PBI as that seems like the easiest thing to do.</p>
+
+  </div>
+  </div>   
+
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>
