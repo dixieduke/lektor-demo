@@ -1,0 +1,23 @@
+title: Lottery & Power BI
+---
+pub_date: 2018-12-14
+---
+author: Charles Adams
+---
+body:
+
+Action: Frequency Distribution Analysis PBI
+
+Project: Lottery
+
+Need to determine frequency at which certain numbers show up in the Pick3 lottery. This is to be done in PBI, and published to the site. I imagine this will be some histogram or something like that.  
+
+Need a way to validate my findings are correct.
+
+Reviewing how to do stats in PBI. Of course, Curbal's YT channel has a lot of content covering this. Here is one I checked out:
+
+https://www.youtube.com/watch?v=SFWHDWiqXzI&list=PLDz00l_jz6zxc8iinR39euGqFm4SDabBf&index=4
+
+My dates are okay, but PBI is changing the year in one of my dates, which causes Sundays to appear in the reports; the lottery doesn't issue #s on Sundays. Trying to figure out how to change the data prior to importing into PBI as that seems like the easiest thing to do.
+
+
