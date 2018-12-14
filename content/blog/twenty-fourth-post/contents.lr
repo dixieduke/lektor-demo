@@ -1,0 +1,25 @@
+title: Publishing site
+---
+pub_date: 2018-12-13
+---
+author: Charles Adams
+---
+body:
+
+Action: Lottery project...
+
+Project: Lottery
+
+Trying to finish this project up prior to moving on to other stuff.
+
+I'm going to gather this info, and use it in PBI.
+
+So far, I've got the code written to get the days and numbers together in a list. These are the winning numbers for the midday pick; there is an evening pick.
+
+I need to generate some output that PBI can consume; this can be a csv file. I found that Corey Shaffer had a video on the CSV module in Python. I checked that out.
+
+All I really need to do is to write every two items together, and then hit return to move to the next item; rather than doing CR/LF, I could enter some symbol and then use the CSV module to look at that new symbol as a delimiter.
+
+I figured out how to do this. It is pretty dirty; I need to get it all in one step, but it took me three separate scripts
+
+

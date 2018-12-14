@@ -1,0 +1,19 @@
+title: Publishing site
+---
+pub_date: 2018-12-12
+---
+author: Charles Adams
+---
+body:
+
+Action: API & PBI
+
+Starting a job soon that uses Power BI (PBI) for contract analysis. I'm refamiliarizing myself with that tool. I figured I could get info made avaiable from a gov't agency, and analyze that.
+
+I need to be able to retrieve data via API, and then plug that data into PBI.
+
+I started at a US gov't website. Here is the URL:
+
+https://apps.bea.gov/API/signup/index.cfm
+
+
