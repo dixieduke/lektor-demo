@@ -1,0 +1,80 @@
+<!doctype html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600" rel="stylesheet"> 
+<link rel="stylesheet" href="../../static/style.css">
+
+<title>Publishing site — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../../blog/">Blog Entries</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>Publishing site</h2>
+  
+  <button class="collapsible">2018-12-13&emsp;|&emsp;Publishing site&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-13
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Lottery project...</p>
+<p>Project: Lottery</p>
+<p>Trying to finish this project up prior to moving on to other stuff.</p>
+<p>I'm going to gather this info, and use it in PBI.</p>
+<p>So far, I've got the code written to get the days and numbers together in a list. These are the winning numbers for the midday pick; there is an evening pick.</p>
+<p>I need to generate some output that PBI can consume; this can be a csv file. I found that Corey Shaffer had a video on the CSV module in Python. I checked that out.</p>
+<p>All I really need to do is to write every two items together, and then hit return to move to the next item; rather than doing CR/LF, I could enter some symbol and then use the CSV module to look at that new symbol as a delimiter.</p>
+<p>I figured out how to do this. It is pretty dirty; I need to get it all in one step, but it took me three separate scripts</p>
+
+  </div>
+  </div>   
+
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>
