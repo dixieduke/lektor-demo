@@ -1,0 +1,21 @@
+title: Lottery & Power BI
+---
+pub_date: 2018-12-15
+---
+author: Charles Adams
+---
+body:
+
+Action: PBI--Visuals & DAX
+
+Project: Lottery
+
+I need to make sure slicers for each day. Need to get this set up for each # (e.g., #1, #2, & #3).vGot this done. 
+
+Set frequency & relative frequency up as reported values. Made sure relative frequency was set to ALLSELECTED as total % changed based on slicer selection. 
+
+Published report to PBI site.
+
+Tomorrow, I would like to see if I can get the report into a blog or something.
+
+
