@@ -1,0 +1,21 @@
+title: Embedding Power BI Report
+---
+pub_date: 2018-12-17
+---
+author: Charles Adams
+---
+body:
+
+Action: See what it takes to get PBI report into a blog
+
+Project: Lottery
+
+I checked out documentation related to getting PBI reports into blog posts. Here is the site I found that info at:
+
+https://docs.microsoft.com/en-us/power-bi/service-publish-to-web
+
+Following those steps, I published the info in the blog. Here is the latest report regarding the lottery data:
+
+<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNDA4NmQwMWItMGNiNi00MGU5LWI4YWYtOGQ2NTk3NDI0MTUzIiwidCI6Ijg2NjY1ZWQzLWU1NjQtNDFhNy1iMDUyLWM4MWYxMDVlNTZkNCJ9" frameborder="0" allowFullScreen="true"></iframe>
+
+The data in the blog post stays synced with the report; if you make changes to the report, those changes will be reflected in the blog post.
