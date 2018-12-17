@@ -1,0 +1,78 @@
+<!doctype html>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600" rel="stylesheet"> 
+<link rel="stylesheet" href="../../static/style.css">
+
+<title>Embedding Power BI Report — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../../blog/">Blog Entries</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>Embedding Power BI Report</h2>
+  
+  <button class="collapsible">2018-12-17&emsp;|&emsp;Embedding Power BI Report&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-17
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: See what it takes to get PBI report into a blog</p>
+<p>Project: Lottery</p>
+<p>I checked out documentation related to getting PBI reports into blog posts. Here is the site I found that info at:</p>
+<p><a href="https://docs.microsoft.com/en-us/power-bi/service-publish-to-web">https://docs.microsoft.com/en-us/power-bi/service-publish-to-web</a></p>
+<p>Following those steps, I published the info in the blog. Here is the latest report regarding the lottery data:</p>
+<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNDA4NmQwMWItMGNiNi00MGU5LWI4YWYtOGQ2NTk3NDI0MTUzIiwidCI6Ijg2NjY1ZWQzLWU1NjQtNDFhNy1iMDUyLWM4MWYxMDVlNTZkNCJ9" frameborder="0" allowFullScreen="true"></iframe><p>The data in the blog post stays synced with the report; if you make changes to the report, those changes will be reflected in the blog post.</p>
+
+  </div>
+  </div>   
+
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>
