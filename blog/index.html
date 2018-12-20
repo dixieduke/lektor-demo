@@ -27,6 +27,40 @@
     
   <div class="blog-post">
   
+    <h2><a href="../blog/twenty-ninth-post/">Econ data &amp; response</a></h2>
+  
+  <button class="collapsible">2018-12-20&emsp;|&emsp;Econ data &amp; response&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-20
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Parsing json made available via .gov's api</p>
+<p>Project: .gov API</p>
+<p>Getting data from the .gov site. Need to know more about how to consume .json data using Python.</p>
+<p>Watched Corey Shafer's vid on this; here is that URL:</p>
+<p><a href="https://www.youtube.com/watch?v=9N6a-VLBa2I">https://www.youtube.com/watch?v=9N6a-VLBa2I</a></p>
+<p>I needed to figure out how to use json data with PBI. I viewed Curbal's vid on this...here is that URL:</p>
+<p><a href="https://www.youtube.com/watch?v=uX2idV79P24">https://www.youtube.com/watch?v=uX2idV79P24</a></p>
+<p>Right now, I can't see a way around having to 'clean' the data prior to pushing it into PBI.</p>
+<p>With the tables available via api on the .gov site, there are parameter lists, and parameter values for tables. There are acceptable values for each of the parameters. I need to get the param lists, and use names from that list to look up acceptable values. These are two separate api calls; the second of which is the call for the values. The second api call has the parameter name as part of the URL, so I need to make a call for each name and store the first and second calls in different objects, and write to separate files.</p>
+
+  </div>
+  </div>   
+
+  
+    
+  <div class="blog-post">
+  
     <h2><a href="../blog/twenty-eighth-post/">.gov API</a></h2>
   
   <button class="collapsible">2018-12-17&emsp;|&emsp;.gov API&emsp;|&emsp;Details</button>
@@ -300,40 +334,6 @@
 </ol>
 <p><a href="https://www.getlektor.com/docs/">https://www.getlektor.com/docs/</a></p>
 <p>On the last page prior to the templates section. The last page dealt with slugs. Need to start that over prior to moving on to templates.</p>
-
-  </div>
-  </div>   
-
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/nineteenth-post/">Lektor &amp; GitHub / Collapsible Menus</a></h2>
-  
-  <button class="collapsible">2018-11-28&emsp;|&emsp;Lektor &amp; GitHub / Collapsible Menus&emsp;|&emsp;Details</button>
-  <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
-    <p class="meta">
-     Written by
-      --an entry here affects both blog list and individual page--
-      
-        Charles Adams
-      
-      on 2018-11-28
-    </p>
-    -->
-    <!--this is the body of each blog post, seen on the entry list & each individual post-->
-    <p>Action: Studied options for deploying Lektor site on GitHub</p>
-<p>I can deploy the blog for free in GitHub pages. Need to look into that. Here is a link that might help out:</p>
-<p><a href="https://www.getlektor.com/docs/deployment/ghpages/">https://www.getlektor.com/docs/deployment/ghpages/</a></p>
-<p>Here is a YT vid illustrating how to do this:</p>
-<p><a href="https://www.youtube.com/watch?v=3pj_EyZIL5A">https://www.youtube.com/watch?v=3pj_EyZIL5A</a></p>
-<p>I could never get this to work. Had to incorporate Travis CI in this process. Kept getting build errors. Will review later.</p>
-<p>Worked on getting collapsible menus in my blog posts:</p>
-<p><a href="https://www.w3schools.com/howto/howto_js_collapsible.asp">https://www.w3schools.com/howto/howto_js_collapsible.asp</a></p>
-<p>This didn't work, so I'm working on deploying the site as is, and will work on menus later.</p>
 
   </div>
   </div>   
