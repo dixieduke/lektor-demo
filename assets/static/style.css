@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600");
+
 body {
+    background-image: url(../images/square_bg.png);
     font-family: 'Nunito', sans-serif;
     margin: 50px 25px 55px;
 }
@@ -16,6 +19,7 @@ header {
     margin: 0 auto;
     background: #00080a;
     padding: 20px 30px 25px;
+    background-image: url(../images/prism.png);
 }
 
 div.page {
@@ -23,9 +27,11 @@ div.page {
     margin: 0 auto;
     background: #feffff;
     padding: 20px 30px 25px;
+    background-image: url(../images/square_bg.png);
 }
 
 footer {
+    background-image: url(../images/prism.png);
     width: 90%;
     margin: 0 auto;
     color: #feffff;
@@ -50,6 +56,7 @@ header nav ul li {
     display: inline;
     margin: 0 8px 0 0;
     padding: 0;
+    background-image: url(../images/prism.png);
 }
 
 ol li {
