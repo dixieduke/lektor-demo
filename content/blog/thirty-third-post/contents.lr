@@ -1,0 +1,17 @@
+title: Regional Income Dataset
+---
+pub_date: 2018-12-22
+---
+author: Charles Adams
+---
+body:
+
+Action: Drill down into dataset and get stats I'm interested in
+
+Project: .gov API
+
+Continue with .gov API using regional income dataset.
+
+Looking to pull in all table information for table CA1 (Personal Income Summary: Personal Income, Population, Per Capita Personal Income (Non-Industry)).
+
+I pulled in different lines from the Regional Income dataset for SC. I got the json data associated with the state; I'll do the counties later.
