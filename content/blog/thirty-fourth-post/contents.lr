@@ -1,0 +1,13 @@
+title: PBI & JSON
+---
+pub_date: 2018-12-22
+---
+author: Charles Adams
+---
+body:
+
+Action: Load JSON .gov files into PBI
+
+Project: Power BI
+
+Used Power Query to access data I want to import into PBI. 
