@@ -1,0 +1,16 @@
+title: CSS background image
+---
+pub_date: 2018-12-22
+---
+author: Charles Adams
+---
+body:
+
+Action: Figure out how to add a background image to the site
+
+Project: Blog site
+
+Yesterday, I was having trouble doing this. The fix was to move the google font api from the .html page to the css file; doing this allowed me to sublty change the background and keep the google fonts I want. 
+
+I had to add two different background images--one white and one black. I had to apply images to different css elements so the entire page would have the same sublte background change.
+

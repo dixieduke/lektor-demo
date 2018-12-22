@@ -1,0 +1,14 @@
+title: Econ data & response
+---
+pub_date: 2018-12-21
+---
+author: Charles Adams
+---
+body:
+
+Action: Review how to add stuff to site.
+
+Project: .gov API
+
+I'm working with the regional income dataset. There are different parameters, and different acceptable values for those parameters. I'm stepping through all of those (GeoFips, LineCode, etc.) to figure out how to get at meaningful data.
+
