@@ -1,0 +1,75 @@
+<!doctype html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="../../static/style.css">
+</head>
+<title>Econ data &amp; response — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../../blog/">Blog Entries</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>Econ data &amp; response</h2>
+  
+  <button class="collapsible">2018-12-21&emsp;|&emsp;Econ data &amp; response&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-21
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Review how to add stuff to site.</p>
+<p>Project: .gov API</p>
+<p>I'm working with the regional income dataset. There are different parameters, and different acceptable values for those parameters. I'm stepping through all of those (GeoFips, LineCode, etc.) to figure out how to get at meaningful data.</p>
+
+  </div>
+  </div>   
+
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>

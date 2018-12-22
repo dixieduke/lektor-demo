@@ -1,0 +1,78 @@
+<!doctype html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="../../static/style.css">
+</head>
+<title>Website stuff — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../../blog/">Blog Entries</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>Website stuff</h2>
+  
+  <button class="collapsible">2018-12-21&emsp;|&emsp;Website stuff&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-21
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Review how to add stuff to site.</p>
+<p>Project: Blog site</p>
+<p>Wanted to look into providing a background on website. Studying that.</p>
+<p>I added an image, and pointed the css file to that image; however, that messed up my google fonts. I couldn't find similar problems on the web. I'll have to come back to this.</p>
+<p>Retrieved backgrounds from here:</p>
+<p><a href="https://www.toptal.com/designers/subtlepatterns/">https://www.toptal.com/designers/subtlepatterns/</a></p>
+
+  </div>
+  </div>   
+
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>
