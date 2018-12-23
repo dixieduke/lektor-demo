@@ -1,0 +1,23 @@
+title: PBI & data categories
+---
+pub_date: 2018-12-23
+---
+author: Charles Adams
+---
+body:
+
+Action: Get visualizations working right in PBI.
+
+Project: Power BI .gov API
+
+Practice using visualizations and json data from .gov site.
+
+Given I ran into problems with this yesterday, I'm starting to review all my notes concerning PBI.
+
+The biggest issue is ensuring that the data values are labeled correctly (e.g., currency, date, etc.). You can do that in both power query and pbi to some extent; I'm more familiar with PBI at this point. 
+
+Need to look into that process in each product, and relationships between tables. For example, I pulled the year into each table I gathered from the .gov site; I may not need the year in each table; might just need it in one.
+
+Here is the SC economic data harvested from the <a href="https://www.bea.gov" target="_blank">bea.gov</a> site:
+
+<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMTFhZjExNjEtNmRjNS00N2U2LTg1YjItYWZlYWM5ZmU2MTRjIiwidCI6Ijg2NjY1ZWQzLWU1NjQtNDFhNy1iMDUyLWM4MWYxMDVlNTZkNCJ9" frameborder="0" allowFullScreen="true"></iframe>
