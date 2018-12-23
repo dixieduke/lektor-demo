@@ -19,7 +19,7 @@ header {
     margin: 0 auto;
     background: #00080a;
     padding: 20px 30px 25px;
-    background-image: url(../images/prism.png);
+    background-image: url(../images/what-the-hex-dark.png);
 }
 
 div.page {
@@ -31,7 +31,7 @@ div.page {
 }
 
 footer {
-    background-image: url(../images/prism.png);
+    background-image: url(../images/what-the-hex-dark.png);
     width: 90%;
     margin: 0 auto;
     color: #feffff;
@@ -56,7 +56,7 @@ header nav ul li {
     display: inline;
     margin: 0 8px 0 0;
     padding: 0;
-    background-image: url(../images/prism.png);
+    background-image: url(../images/what-the-hex-dark.png);
 }
 
 ol li {
