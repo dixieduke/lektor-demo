@@ -1,0 +1,79 @@
+<!doctype html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="../../static/style.css">
+</head>
+<title>PBI &amp; data categories — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../../blog/">Blog Entries</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>PBI &amp; data categories</h2>
+  
+  <button class="collapsible">2018-12-23&emsp;|&emsp;PBI &amp; data categories&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-23
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Get visualizations working right in PBI.</p>
+<p>Project: Power BI .gov API</p>
+<p>Practice using visualizations and json data from .gov site.</p>
+<p>Given I ran into problems with this yesterday, I'm starting to review all my notes concerning PBI.</p>
+<p>The biggest issue is ensuring that the data values are labeled correctly (e.g., currency, date, etc.). You can do that in both power query and pbi to some extent; I'm more familiar with PBI at this point.</p>
+<p>Need to look into that process in each product, and relationships between tables. For example, I pulled the year into each table I gathered from the .gov site; I may not need the year in each table; might just need it in one.</p>
+<p>Here is the SC economic data harvested from the <a href="https://www.bea.gov" target="_blank">bea.gov</a> site:</p>
+<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMTFhZjExNjEtNmRjNS00N2U2LTg1YjItYWZlYWM5ZmU2MTRjIiwidCI6Ijg2NjY1ZWQzLWU1NjQtNDFhNy1iMDUyLWM4MWYxMDVlNTZkNCJ9" frameborder="0" allowFullScreen="true"></iframe>
+  </div>
+  </div>   
+
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>
