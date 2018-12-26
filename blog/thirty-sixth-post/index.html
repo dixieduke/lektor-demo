@@ -1,0 +1,83 @@
+<!doctype html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="../../static/style.css">
+</head>
+<title>PBI &amp; Best Practices — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../../blog/">Blog Entries</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>PBI &amp; Best Practices</h2>
+  
+  <button class="collapsible">2018-12-26&emsp;|&emsp;PBI &amp; Best Practices&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-26
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Review both old material &amp; difficulties</p>
+<p>Project: Power BI</p>
+<p>Reviewed PBI documentation I had available. I'm attempting to reacquaint myself with notes I took on PBI.</p>
+<p>I started with a document that is pretty much like an overview of the product. The PDF of that is found here:</p>
+<p><a href="https://info.microsoft.com/rs/157-GQE-382/images/EN-GB-CNTNT-eBook-DIYGuideDazzlingData.pdf">https://info.microsoft.com/rs/157-GQE-382/images/EN-GB-CNTNT-eBook-DIYGuideDazzlingData.pdf</a></p>
+<p>I wanted to look at some of the problems I had documented. I found some vids that showed solutions to those.</p>
+<p>Here is one on date sorting (month) where it doesn't sort chronologically:</p>
+<p><a href="https://www.youtube.com/watch?v=KFHIqwJH19o">https://www.youtube.com/watch?v=KFHIqwJH19o</a></p>
+<p>They have updated things in PBI, and it has resolved some of these problems; except for weekday name.</p>
+<p>In reviewing my notes, probably the most important thing I read was this:</p>
+<p>"Make sure the story being told matches the business needs; if not, the report won’t be useful."</p>
+
+  </div>
+  </div>   
+
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>
