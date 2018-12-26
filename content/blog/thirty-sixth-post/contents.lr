@@ -1,0 +1,29 @@
+title: PBI & Best Practices
+---
+pub_date: 2018-12-26
+---
+author: Charles Adams
+---
+body:
+
+Action: Review both old material & difficulties
+
+Project: Power BI 
+
+Reviewed PBI documentation I had available. I'm attempting to reacquaint myself with notes I took on PBI.
+
+I started with a document that is pretty much like an overview of the product. The PDF of that is found here:
+
+https://info.microsoft.com/rs/157-GQE-382/images/EN-GB-CNTNT-eBook-DIYGuideDazzlingData.pdf
+
+I wanted to look at some of the problems I had documented. I found some vids that showed solutions to those. 
+
+Here is one on date sorting (month) where it doesn't sort chronologically:
+
+https://www.youtube.com/watch?v=KFHIqwJH19o
+
+They have updated things in PBI, and it has resolved some of these problems; except for weekday name.
+
+In reviewing my notes, probably the most important thing I read was this:
+
+"Make sure the story being told matches the business needs; if not, the report won’t be useful."
