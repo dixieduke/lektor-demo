@@ -1,0 +1,23 @@
+title: PBI & Personal Budget
+---
+pub_date: 2018-12-27
+---
+author: Charles Adams
+---
+body:
+
+Action: Create personal budget and use PBI against that data
+
+Project: Power BI 
+
+Wanted to play around in PBI today.
+
+I created a 2019 budget with my wife, and wanted to use PBI to make that data tell a story. 
+
+I got to the point where I needed to calculate a value in a column, and was having an issue. I then started looking at some issues I ran into in the past to see how I could possibly resolve this particular problem.
+
+I couldn't find that specific issue referenced, so I opted to simply read notes concerning dax functions, and issues with such functions.
+
+Checked out sqlbi.com; looks like they have updated some things since my last visit. 
+
+Tomorrow, I will start off the day with trying to resolve my current issue. I need to move on and start reviewing old problem examples along with new PBI enhancement reviews (for all of 2018).
