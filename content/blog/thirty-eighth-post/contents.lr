@@ -1,0 +1,25 @@
+title: Reviewed Pythonic APIs
+---
+pub_date: 2018-12-28
+---
+author: Charles Adams
+---
+body:
+
+Action: Review API material to better understand APIs
+
+Project: API
+
+Needed to review APIs. I use the request module, but I'm not sure if that is considered a restful API; I've never heard it mentioned as such. 
+
+I reviewed the following URL that discussed this subject:
+
+https://realpython.com/api-integration-in-python/#appendix-rest-in-a-nutshell
+
+Here is another article, that talks about criteria that define a RESTful API:
+
+https://advanced-python.readthedocs.io/en/latest/rest/what-is-rest.html
+
+The following article is really a great resource that walks one through creating a RESTful API; it also lists really cool resources & services that could assist one in similar endeavors:
+
+https://realpython.com/flask-connexion-rest-api/
