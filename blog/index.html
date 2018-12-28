@@ -27,6 +27,40 @@
     
   <div class="blog-post">
   
+    <h2><a href="../blog/thirty-eighth-post/">Reviewed Pythonic APIs</a></h2>
+  
+  <button class="collapsible">2018-12-28&emsp;|&emsp;Reviewed Pythonic APIs&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-28
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Review API material to better understand APIs</p>
+<p>Project: API</p>
+<p>Needed to review APIs. I use the request module, but I'm not sure if that is considered a restful API; I've never heard it mentioned as such.</p>
+<p>I reviewed the following URL that discussed this subject:</p>
+<p><a href="https://realpython.com/api-integration-in-python/#appendix-rest-in-a-nutshell">https://realpython.com/api-integration-in-python/#appendix-rest-in-a-nutshell</a></p>
+<p>Here is another article, that talks about criteria that define a RESTful API:</p>
+<p><a href="https://advanced-python.readthedocs.io/en/latest/rest/what-is-rest.html">https://advanced-python.readthedocs.io/en/latest/rest/what-is-rest.html</a></p>
+<p>The following article is really a great resource that walks one through creating a RESTful API; it also lists really cool resources &amp; services that could assist one in similar endeavors:</p>
+<p><a href="https://realpython.com/flask-connexion-rest-api/">https://realpython.com/flask-connexion-rest-api/</a></p>
+
+  </div>
+  </div>   
+
+  
+    
+  <div class="blog-post">
+  
     <h2><a href="../blog/thirty-seventh-post/">PBI &amp; Personal Budget</a></h2>
   
   <button class="collapsible">2018-12-27&emsp;|&emsp;PBI &amp; Personal Budget&emsp;|&emsp;Details</button>
@@ -300,43 +334,6 @@
 <p><a href="https://www.youtube.com/watch?v=uX2idV79P24">https://www.youtube.com/watch?v=uX2idV79P24</a></p>
 <p>Right now, I can't see a way around having to 'clean' the data prior to pushing it into PBI.</p>
 <p>With the tables available via api on the .gov site, there are parameter lists, and parameter values for tables. There are acceptable values for each of the parameters. I need to get the param lists, and use names from that list to look up acceptable values. These are two separate api calls; the second of which is the call for the values. The second api call has the parameter name as part of the URL, so I need to make a call for each name and store the first and second calls in different objects, and write to separate files.</p>
-
-  </div>
-  </div>   
-
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/twenty-eighth-post/">.gov API</a></h2>
-  
-  <button class="collapsible">2018-12-17&emsp;|&emsp;.gov API&emsp;|&emsp;Details</button>
-  <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
-    <p class="meta">
-     Written by
-      --an entry here affects both blog list and individual page--
-      
-        Charles Adams
-      
-      on 2018-12-17
-    </p>
-    -->
-    <!--this is the body of each blog post, seen on the entry list & each individual post-->
-    <p>Action: Build out API to get data from .gov site</p>
-<p>Project: .gov API</p>
-<p>The Bureau of Economic Analysis makes data available via API. I want to retrieve that data and use PBI to generate some reports against harvested data.</p>
-<p>Here is the URL for the API:</p>
-<p><a href="https://apps.bea.gov/API/signup/index.cfm">https://apps.bea.gov/API/signup/index.cfm</a></p>
-<p>The API is accessed using the following URL (I believe):</p>
-<p><a href="https://apps.bea.gov/api/data">https://apps.bea.gov/api/data</a>.</p>
-<p>Was able to build out a successful request, and got back the following info:</p>
-<p>b'{"BEAAPI":{"Request":{"RequestParam":[{"ParameterName":"USERID","ParameterValue":"F414B54D-68CF-452A-BFD9-7B7BDA23AE7C"},{"ParameterName":"METHOD","ParameterValue":"GETDATASETLIST"}]},"Results":{"Dataset":[{"DatasetName":"RegionalData","DatasetDescription":"The RegionalData dataset is obsolete. Please use the Regional dataset. See API documentation at apps.bea.gov/developers"},{"DatasetName":"NIPA","DatasetDescription":"Standard NIPA tables"},{"DatasetName":"NIUnderlyingDetail","DatasetDescription":"Standard NI underlying detail tables"},{"DatasetName":"MNE","DatasetDescription":"Multinational Enterprises"},{"DatasetName":"FixedAssets","DatasetDescription":"Standard Fixed Assets tables"},{"DatasetName":"ITA","DatasetDescription":"International Transactions Accounts"},{"DatasetName":"IIP","DatasetDescription":"International Investment Position"},{"DatasetName":"GDPbyIndustry","DatasetDescription":"GDP by Industry"},{"DatasetName":"RegionalIncome","DatasetDescription":"Regional Income data sets"},{"DatasetName":"RegionalProduct","DatasetDescription":"Regional Product data sets"},{"DatasetName":"InputOutput","DatasetDescription":"Input-Output Data"},{"DatasetName":"UnderlyingGDPbyIndustry","DatasetDescription":"Underlying GDP by Industry"},{"DatasetName":"IntlServTrade","DatasetDescription":"International Services Trade"},{"DatasetName":"Regional","DatasetDescription":"Regional data sets"},{"DatasetName":"APIDatasetMetaData","DatasetDescription":"Metadata about other API datasets"}]}}} '</p>
-<p>Need to figure out how to parse/consume that successfully so I can pass that in some format that PBI will recognize.</p>
-<p>Created virtualenv for this project and installed requests. Created github repo.</p>
-<p>Need to figure out how to differentiate between the different datasets made available on that site.</p>
 
   </div>
   </div>   
