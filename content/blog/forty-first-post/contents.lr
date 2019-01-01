@@ -1,0 +1,45 @@
+title: PBI Budget
+---
+pub_date: 2018-12-31
+---
+author: Charles Adams
+---
+body:
+
+Action: Complete Budget in BPI
+
+Project: Power BI
+
+Move forward with our PBI budget.
+
+I had to 'relearn' DAX so I could calculate when a date corresponded to a certain dollar amount in savings. This took a bit.
+
+Here is what I came up with:
+
+FORMAT(
+    CALCULATE(
+        MIN(Savings[Month].[Date]),
+        FILTER(
+            Savings,
+            Savings[Three Or Six Months Expenses] = ">=6 Months Expenses"
+        )
+    ),
+    "mm/yyyy"
+)
+
+The problem here is it returns a value as text. This is a problem because I wanted to then incorporate this into a lookup value expression; you can't use text in that when comparing dates/dollars, so I use to use the calculate expression in the new lookup measure:
+
+LOOKUPVALUE(
+    Savings[Current Dollars],
+    Savings[Month].[Date],
+    CALCULATE(
+        MIN(Savings[Month].[Date]),
+        FILTER(
+            Savings,
+            Savings[Three Or Six Months Expenses] = ">=6 Months Expenses"
+        )
+    )
+)
+
+Seems a bit redundant. 
+

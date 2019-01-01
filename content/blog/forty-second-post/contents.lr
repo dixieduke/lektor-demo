@@ -1,0 +1,26 @@
+title: PBI Training
+---
+pub_date: 2019-01-01
+---
+author: Charles Adams
+---
+body:
+
+Action: Reintroduce myself to PBI modeling & relationships
+
+Project: Power BI
+
+Studied the following URL:
+
+https://docs.microsoft.com/en-us/power-bi/desktop-common-query-tasks
+
+I created some test tables, and pulled in some data over the web to do tasks in PBI's query editor:
+
+Group By
+Add Custom Column
+Pivot
+I then went to this tutorial that dealt with relationships:
+
+https://docs.microsoft.com/en-us/power-bi/desktop-create-and-manage-relationships
+
+I created the tables, and left off where relationships should be created. I'll pick up there later on.

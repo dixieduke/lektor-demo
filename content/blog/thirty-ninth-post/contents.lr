@@ -1,0 +1,27 @@
+title: PBI, DAX, & PBI Updates
+---
+pub_date: 2018-12-29
+---
+author: Charles Adams
+---
+body:
+
+Action: Reviewed PBI workspace, DAX expressions, & PBI Monthly Update vids
+
+Project: Power BI
+
+Opened PBI site and review tools and features; possibly related documentation.
+
+I'm using the following URL to go through the PBI service features:
+
+https://docs.microsoft.com/en-us/power-bi/guided-learning/exploringdata?tutorial-step=6
+
+Aside from that, I clicked around in the app to see what different things did.
+
+In order to become comfortable with DAX again I spent some time reviewing SUMX, and how to subtract dates.
+
+MS does a great job at publishing monthly update YT vids. I took a look at this one:
+
+Review PBI Monthly Update YouTube vids. I got through 02/18; need to pick up a little more than halfway through that vid:
+
+https://www.youtube.com/watch?v=KeVB5RwMzJo
