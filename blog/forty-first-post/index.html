@@ -1,0 +1,100 @@
+<!doctype html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="../../static/style.css">
+</head>
+<title>PBI Budget — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../../blog/">Blog Entries</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>PBI Budget</h2>
+  
+  <button class="collapsible">2018-12-31&emsp;|&emsp;PBI Budget&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-31
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Complete Budget in BPI</p>
+<p>Project: Power BI</p>
+<p>Move forward with our PBI budget.</p>
+<p>I had to 'relearn' DAX so I could calculate when a date corresponded to a certain dollar amount in savings. This took a bit.</p>
+<p>Here is what I came up with:</p>
+<p>FORMAT(
+    CALCULATE(
+        MIN(Savings[Month].[Date]),
+        FILTER(
+            Savings,
+            Savings[Three Or Six Months Expenses] = "&gt;=6 Months Expenses"
+        )
+    ),
+    "mm/yyyy"
+)</p>
+<p>The problem here is it returns a value as text. This is a problem because I wanted to then incorporate this into a lookup value expression; you can't use text in that when comparing dates/dollars, so I use to use the calculate expression in the new lookup measure:</p>
+<p>LOOKUPVALUE(
+    Savings[Current Dollars],
+    Savings[Month].[Date],
+    CALCULATE(
+        MIN(Savings[Month].[Date]),
+        FILTER(
+            Savings,
+            Savings[Three Or Six Months Expenses] = "&gt;=6 Months Expenses"
+        )
+    )
+)</p>
+<p>Seems a bit redundant.</p>
+
+  </div>
+  </div>   
+
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>

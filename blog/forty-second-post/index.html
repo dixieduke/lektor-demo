@@ -1,0 +1,83 @@
+<!doctype html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="../../static/style.css">
+</head>
+<title>PBI Training — Blog</title>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../../">Welcome</a></li>
+        
+          <li class="active"><a href="../../blog/">Blog Entries</a></li>
+        
+          <li><a href="../../projects/">Projects</a></li>
+        
+          <li><a href="../../resources/">Resources</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>PBI Training</h2>
+  
+  <button class="collapsible">2019-01-01&emsp;|&emsp;PBI Training&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2019-01-01
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Reintroduce myself to PBI modeling &amp; relationships</p>
+<p>Project: Power BI</p>
+<p>Studied the following URL:</p>
+<p><a href="https://docs.microsoft.com/en-us/power-bi/desktop-common-query-tasks">https://docs.microsoft.com/en-us/power-bi/desktop-common-query-tasks</a></p>
+<p>I created some test tables, and pulled in some data over the web to do tasks in PBI's query editor:</p>
+<p>Group By
+Add Custom Column
+Pivot
+I then went to this tutorial that dealt with relationships:</p>
+<p><a href="https://docs.microsoft.com/en-us/power-bi/desktop-create-and-manage-relationships">https://docs.microsoft.com/en-us/power-bi/desktop-create-and-manage-relationships</a></p>
+<p>I created the tables, and left off where relationships should be created. I'll pick up there later on.</p>
+
+  </div>
+  </div>   
+
+
+    </div>
+  </div>
+  <footer>
+    &copy; Copyright 2018 by Charles Adams &emsp;|&emsp; Built with <a href="https://www.getlektor.com/" target="_blank">Lektor</a>
+  </footer>
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+</body>

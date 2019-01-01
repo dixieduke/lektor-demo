@@ -27,6 +27,129 @@
     
   <div class="blog-post">
   
+    <h2><a href="../../../blog/thirty-third-post/">Regional Income Dataset</a></h2>
+  
+  <button class="collapsible">2018-12-22&emsp;|&emsp;Regional Income Dataset&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-22
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Drill down into dataset and get stats I'm interested in</p>
+<p>Project: .gov API</p>
+<p>Continue with .gov API using regional income dataset.</p>
+<p>Looking to pull in all table information for table CA1 (Personal Income Summary: Personal Income, Population, Per Capita Personal Income (Non-Industry)).</p>
+<p>I pulled in different lines from the Regional Income dataset for SC. I got the json data associated with the state; I'll do the counties later.</p>
+
+  </div>
+  </div>   
+
+  
+    
+  <div class="blog-post">
+  
+    <h2><a href="../../../blog/thirty-first-post/">Econ data &amp; response</a></h2>
+  
+  <button class="collapsible">2018-12-21&emsp;|&emsp;Econ data &amp; response&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-21
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Review how to add stuff to site.</p>
+<p>Project: .gov API</p>
+<p>I'm working with the regional income dataset. There are different parameters, and different acceptable values for those parameters. I'm stepping through all of those (GeoFips, LineCode, etc.) to figure out how to get at meaningful data.</p>
+
+  </div>
+  </div>   
+
+  
+    
+  <div class="blog-post">
+  
+    <h2><a href="../../../blog/thirtieth-post/">Website stuff</a></h2>
+  
+  <button class="collapsible">2018-12-21&emsp;|&emsp;Website stuff&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-21
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Review how to add stuff to site.</p>
+<p>Project: Blog site</p>
+<p>Wanted to look into providing a background on website. Studying that.</p>
+<p>I added an image, and pointed the css file to that image; however, that messed up my google fonts. I couldn't find similar problems on the web. I'll have to come back to this.</p>
+<p>Retrieved backgrounds from here:</p>
+<p><a href="https://www.toptal.com/designers/subtlepatterns/">https://www.toptal.com/designers/subtlepatterns/</a></p>
+
+  </div>
+  </div>   
+
+  
+    
+  <div class="blog-post">
+  
+    <h2><a href="../../../blog/twenty-ninth-post/">Econ data &amp; response</a></h2>
+  
+  <button class="collapsible">2018-12-20&emsp;|&emsp;Econ data &amp; response&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-20
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Parsing json made available via .gov's api</p>
+<p>Project: .gov API</p>
+<p>Getting data from the .gov site. Need to know more about how to consume .json data using Python.</p>
+<p>Watched Corey Shafer's vid on this; here is that URL:</p>
+<p><a href="https://www.youtube.com/watch?v=9N6a-VLBa2I">https://www.youtube.com/watch?v=9N6a-VLBa2I</a></p>
+<p>I needed to figure out how to use json data with PBI. I viewed Curbal's vid on this...here is that URL:</p>
+<p><a href="https://www.youtube.com/watch?v=uX2idV79P24">https://www.youtube.com/watch?v=uX2idV79P24</a></p>
+<p>Right now, I can't see a way around having to 'clean' the data prior to pushing it into PBI.</p>
+<p>With the tables available via api on the .gov site, there are parameter lists, and parameter values for tables. There are acceptable values for each of the parameters. I need to get the param lists, and use names from that list to look up acceptable values. These are two separate api calls; the second of which is the call for the values. The second api call has the parameter name as part of the URL, so I need to make a call for each name and store the first and second calls in different objects, and write to separate files.</p>
+
+  </div>
+  </div>   
+
+  
+    
+  <div class="blog-post">
+  
     <h2><a href="../../../blog/twenty-eighth-post/">.gov API</a></h2>
   
   <button class="collapsible">2018-12-17&emsp;|&emsp;.gov API&emsp;|&emsp;Details</button>
@@ -213,127 +336,6 @@
 <p>I need to be able to retrieve data via API, and then plug that data into PBI.</p>
 <p>I started at a US gov't website. Here is the URL:</p>
 <p><a href="https://apps.bea.gov/API/signup/index.cfm">https://apps.bea.gov/API/signup/index.cfm</a></p>
-
-  </div>
-  </div>   
-
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../../../blog/twenty-second-post/">Publishing site</a></h2>
-  
-  <button class="collapsible">2018-12-03&emsp;|&emsp;Publishing site&emsp;|&emsp;Details</button>
-  <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
-    <p class="meta">
-     Written by
-      --an entry here affects both blog list and individual page--
-      
-        Charles Adams
-      
-      on 2018-12-03
-    </p>
-    -->
-    <!--this is the body of each blog post, seen on the entry list & each individual post-->
-    <p>Action: GitHub &amp; Travis CI</p>
-<p>Have been having trouble with getting Travis CI to build my lektor page on GH pages; it seems to complete the build on Travis CI without issue (e.g., with 0). The problem was actually in my project config file--I had specified the wrong repo name.</p>
-
-  </div>
-  </div>   
-
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../../../blog/twenty-first-post/">Lektor &amp; Jinja2</a></h2>
-  
-  <button class="collapsible">2018-12-01&emsp;|&emsp;Lektor &amp; Jinja2&emsp;|&emsp;Details</button>
-  <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
-    <p class="meta">
-     Written by
-      --an entry here affects both blog list and individual page--
-      
-        Charles Adams
-      
-      on 2018-12-01
-    </p>
-    -->
-    <!--this is the body of each blog post, seen on the entry list & each individual post-->
-    <p>Action: Studied Lektor &amp; Jinja2</p>
-<p>Spent time reading over documentaiton regarding Lektor and its templating system.</p>
-
-  </div>
-  </div>   
-
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../../../blog/twentieth-post/">Lektor / Publishing Site / Menus</a></h2>
-  
-  <button class="collapsible">2018-11-30&emsp;|&emsp;Lektor / Publishing Site / Menus&emsp;|&emsp;Details</button>
-  <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
-    <p class="meta">
-     Written by
-      --an entry here affects both blog list and individual page--
-      
-        Charles Adams
-      
-      on 2018-11-30
-    </p>
-    -->
-    <!--this is the body of each blog post, seen on the entry list & each individual post-->
-    <p>Action: Studying menus &amp; site building</p>
-<p>Just read over documentation to hopefully understand why I'm having trouble with the following two items:</p>
-<ol>
-<li>JS menus</li>
-<li>Publishing site</li>
-</ol>
-<p><a href="https://www.getlektor.com/docs/">https://www.getlektor.com/docs/</a></p>
-<p>On the last page prior to the templates section. The last page dealt with slugs. Need to start that over prior to moving on to templates.</p>
-
-  </div>
-  </div>   
-
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../../../blog/nineteenth-post/">Lektor &amp; GitHub / Collapsible Menus</a></h2>
-  
-  <button class="collapsible">2018-11-28&emsp;|&emsp;Lektor &amp; GitHub / Collapsible Menus&emsp;|&emsp;Details</button>
-  <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
-    <p class="meta">
-     Written by
-      --an entry here affects both blog list and individual page--
-      
-        Charles Adams
-      
-      on 2018-11-28
-    </p>
-    -->
-    <!--this is the body of each blog post, seen on the entry list & each individual post-->
-    <p>Action: Studied options for deploying Lektor site on GitHub</p>
-<p>I can deploy the blog for free in GitHub pages. Need to look into that. Here is a link that might help out:</p>
-<p><a href="https://www.getlektor.com/docs/deployment/ghpages/">https://www.getlektor.com/docs/deployment/ghpages/</a></p>
-<p>Here is a YT vid illustrating how to do this:</p>
-<p><a href="https://www.youtube.com/watch?v=3pj_EyZIL5A">https://www.youtube.com/watch?v=3pj_EyZIL5A</a></p>
-<p>I could never get this to work. Had to incorporate Travis CI in this process. Kept getting build errors. Will review later.</p>
-<p>Worked on getting collapsible menus in my blog posts:</p>
-<p><a href="https://www.w3schools.com/howto/howto_js_collapsible.asp">https://www.w3schools.com/howto/howto_js_collapsible.asp</a></p>
-<p>This didn't work, so I'm working on deploying the site as is, and will work on menus later.</p>
 
   </div>
   </div>   

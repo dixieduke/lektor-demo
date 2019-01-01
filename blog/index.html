@@ -27,6 +27,158 @@
     
   <div class="blog-post">
   
+    <h2><a href="../blog/forty-second-post/">PBI Training</a></h2>
+  
+  <button class="collapsible">2019-01-01&emsp;|&emsp;PBI Training&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2019-01-01
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Reintroduce myself to PBI modeling &amp; relationships</p>
+<p>Project: Power BI</p>
+<p>Studied the following URL:</p>
+<p><a href="https://docs.microsoft.com/en-us/power-bi/desktop-common-query-tasks">https://docs.microsoft.com/en-us/power-bi/desktop-common-query-tasks</a></p>
+<p>I created some test tables, and pulled in some data over the web to do tasks in PBI's query editor:</p>
+<p>Group By
+Add Custom Column
+Pivot
+I then went to this tutorial that dealt with relationships:</p>
+<p><a href="https://docs.microsoft.com/en-us/power-bi/desktop-create-and-manage-relationships">https://docs.microsoft.com/en-us/power-bi/desktop-create-and-manage-relationships</a></p>
+<p>I created the tables, and left off where relationships should be created. I'll pick up there later on.</p>
+
+  </div>
+  </div>   
+
+  
+    
+  <div class="blog-post">
+  
+    <h2><a href="../blog/forty-first-post/">PBI Budget</a></h2>
+  
+  <button class="collapsible">2018-12-31&emsp;|&emsp;PBI Budget&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-31
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Complete Budget in BPI</p>
+<p>Project: Power BI</p>
+<p>Move forward with our PBI budget.</p>
+<p>I had to 'relearn' DAX so I could calculate when a date corresponded to a certain dollar amount in savings. This took a bit.</p>
+<p>Here is what I came up with:</p>
+<p>FORMAT(
+    CALCULATE(
+        MIN(Savings[Month].[Date]),
+        FILTER(
+            Savings,
+            Savings[Three Or Six Months Expenses] = "&gt;=6 Months Expenses"
+        )
+    ),
+    "mm/yyyy"
+)</p>
+<p>The problem here is it returns a value as text. This is a problem because I wanted to then incorporate this into a lookup value expression; you can't use text in that when comparing dates/dollars, so I use to use the calculate expression in the new lookup measure:</p>
+<p>LOOKUPVALUE(
+    Savings[Current Dollars],
+    Savings[Month].[Date],
+    CALCULATE(
+        MIN(Savings[Month].[Date]),
+        FILTER(
+            Savings,
+            Savings[Three Or Six Months Expenses] = "&gt;=6 Months Expenses"
+        )
+    )
+)</p>
+<p>Seems a bit redundant.</p>
+
+  </div>
+  </div>   
+
+  
+    
+  <div class="blog-post">
+  
+    <h2><a href="../blog/fortieth-post/">PBI Community</a></h2>
+  
+  <button class="collapsible">2018-12-30&emsp;|&emsp;PBI Community&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-30
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Make sure PBI community account is set up</p>
+<p>Project: Power BI</p>
+<p>Make sure I'm set up for PBI community (e.g., post, search, etc.). This involved me setting up MS admin account; I had to add a record in Google g-suite admin site in order for MS to verify I owned dixieduke.net domain.</p>
+
+  </div>
+  </div>   
+
+  
+    
+  <div class="blog-post">
+  
+    <h2><a href="../blog/thirty-ninth-post/">PBI, DAX, &amp; PBI Updates</a></h2>
+  
+  <button class="collapsible">2018-12-29&emsp;|&emsp;PBI, DAX, &amp; PBI Updates&emsp;|&emsp;Details</button>
+  <div class="content">
+    <!--commenting out this block as posting 'written by' info & date
+    seems a bit redundant. Leaving code as might do something with
+    Twitter later
+    <p class="meta">
+     Written by
+      --an entry here affects both blog list and individual page--
+      
+        Charles Adams
+      
+      on 2018-12-29
+    </p>
+    -->
+    <!--this is the body of each blog post, seen on the entry list & each individual post-->
+    <p>Action: Reviewed PBI workspace, DAX expressions, &amp; PBI Monthly Update vids</p>
+<p>Project: Power BI</p>
+<p>Opened PBI site and review tools and features; possibly related documentation.</p>
+<p>I'm using the following URL to go through the PBI service features:</p>
+<p><a href="https://docs.microsoft.com/en-us/power-bi/guided-learning/exploringdata?tutorial-step=6">https://docs.microsoft.com/en-us/power-bi/guided-learning/exploringdata?tutorial-step=6</a></p>
+<p>Aside from that, I clicked around in the app to see what different things did.</p>
+<p>In order to become comfortable with DAX again I spent some time reviewing SUMX, and how to subtract dates.</p>
+<p>MS does a great job at publishing monthly update YT vids. I took a look at this one:</p>
+<p>Review PBI Monthly Update YouTube vids. I got through 02/18; need to pick up a little more than halfway through that vid:</p>
+<p><a href="https://www.youtube.com/watch?v=KeVB5RwMzJo">https://www.youtube.com/watch?v=KeVB5RwMzJo</a></p>
+
+  </div>
+  </div>   
+
+  
+    
+  <div class="blog-post">
+  
     <h2><a href="../blog/thirty-eighth-post/">Reviewed Pythonic APIs</a></h2>
   
   <button class="collapsible">2018-12-28&emsp;|&emsp;Reviewed Pythonic APIs&emsp;|&emsp;Details</button>
@@ -211,129 +363,6 @@
     <p>Action: Load JSON .gov files into PBI</p>
 <p>Project: Power BI</p>
 <p>Used Power Query to access data I want to import into PBI.</p>
-
-  </div>
-  </div>   
-
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/thirty-third-post/">Regional Income Dataset</a></h2>
-  
-  <button class="collapsible">2018-12-22&emsp;|&emsp;Regional Income Dataset&emsp;|&emsp;Details</button>
-  <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
-    <p class="meta">
-     Written by
-      --an entry here affects both blog list and individual page--
-      
-        Charles Adams
-      
-      on 2018-12-22
-    </p>
-    -->
-    <!--this is the body of each blog post, seen on the entry list & each individual post-->
-    <p>Action: Drill down into dataset and get stats I'm interested in</p>
-<p>Project: .gov API</p>
-<p>Continue with .gov API using regional income dataset.</p>
-<p>Looking to pull in all table information for table CA1 (Personal Income Summary: Personal Income, Population, Per Capita Personal Income (Non-Industry)).</p>
-<p>I pulled in different lines from the Regional Income dataset for SC. I got the json data associated with the state; I'll do the counties later.</p>
-
-  </div>
-  </div>   
-
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/thirty-first-post/">Econ data &amp; response</a></h2>
-  
-  <button class="collapsible">2018-12-21&emsp;|&emsp;Econ data &amp; response&emsp;|&emsp;Details</button>
-  <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
-    <p class="meta">
-     Written by
-      --an entry here affects both blog list and individual page--
-      
-        Charles Adams
-      
-      on 2018-12-21
-    </p>
-    -->
-    <!--this is the body of each blog post, seen on the entry list & each individual post-->
-    <p>Action: Review how to add stuff to site.</p>
-<p>Project: .gov API</p>
-<p>I'm working with the regional income dataset. There are different parameters, and different acceptable values for those parameters. I'm stepping through all of those (GeoFips, LineCode, etc.) to figure out how to get at meaningful data.</p>
-
-  </div>
-  </div>   
-
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/thirtieth-post/">Website stuff</a></h2>
-  
-  <button class="collapsible">2018-12-21&emsp;|&emsp;Website stuff&emsp;|&emsp;Details</button>
-  <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
-    <p class="meta">
-     Written by
-      --an entry here affects both blog list and individual page--
-      
-        Charles Adams
-      
-      on 2018-12-21
-    </p>
-    -->
-    <!--this is the body of each blog post, seen on the entry list & each individual post-->
-    <p>Action: Review how to add stuff to site.</p>
-<p>Project: Blog site</p>
-<p>Wanted to look into providing a background on website. Studying that.</p>
-<p>I added an image, and pointed the css file to that image; however, that messed up my google fonts. I couldn't find similar problems on the web. I'll have to come back to this.</p>
-<p>Retrieved backgrounds from here:</p>
-<p><a href="https://www.toptal.com/designers/subtlepatterns/">https://www.toptal.com/designers/subtlepatterns/</a></p>
-
-  </div>
-  </div>   
-
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/twenty-ninth-post/">Econ data &amp; response</a></h2>
-  
-  <button class="collapsible">2018-12-20&emsp;|&emsp;Econ data &amp; response&emsp;|&emsp;Details</button>
-  <div class="content">
-    <!--commenting out this block as posting 'written by' info & date
-    seems a bit redundant. Leaving code as might do something with
-    Twitter later
-    <p class="meta">
-     Written by
-      --an entry here affects both blog list and individual page--
-      
-        Charles Adams
-      
-      on 2018-12-20
-    </p>
-    -->
-    <!--this is the body of each blog post, seen on the entry list & each individual post-->
-    <p>Action: Parsing json made available via .gov's api</p>
-<p>Project: .gov API</p>
-<p>Getting data from the .gov site. Need to know more about how to consume .json data using Python.</p>
-<p>Watched Corey Shafer's vid on this; here is that URL:</p>
-<p><a href="https://www.youtube.com/watch?v=9N6a-VLBa2I">https://www.youtube.com/watch?v=9N6a-VLBa2I</a></p>
-<p>I needed to figure out how to use json data with PBI. I viewed Curbal's vid on this...here is that URL:</p>
-<p><a href="https://www.youtube.com/watch?v=uX2idV79P24">https://www.youtube.com/watch?v=uX2idV79P24</a></p>
-<p>Right now, I can't see a way around having to 'clean' the data prior to pushing it into PBI.</p>
-<p>With the tables available via api on the .gov site, there are parameter lists, and parameter values for tables. There are acceptable values for each of the parameters. I need to get the param lists, and use names from that list to look up acceptable values. These are two separate api calls; the second of which is the call for the values. The second api call has the parameter name as part of the URL, so I need to make a call for each name and store the first and second calls in different objects, and write to separate files.</p>
 
   </div>
   </div>   
