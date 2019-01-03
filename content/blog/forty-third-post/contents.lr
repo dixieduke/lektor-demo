@@ -1,0 +1,43 @@
+title: PBI Drill Down & Drill Through
+---
+pub_date: 2019-01-03
+---
+author: Charles Adams
+---
+body:
+
+Action: Reintroduce myself to the drill down & drill through features
+
+Project: Power BI
+
+Drill Through:
+
+Studied this feature. Used this URL to get a basic understanding of the feature:
+
+https://docs.microsoft.com/en-us/power-bi/desktop-drillthrough
+
+Watched Curbal's vid on this, here is that URL:
+
+https://www.youtube.com/watch?v=72beG_VHufU
+
+Here is her 2nd vid with updated drill through functionality
+
+Watched Guy In A Cube's vid on this (concerning latest updates); that is here:
+
+https://www.youtube.com/watch?v=oTjI5ZBQUhM
+
+Here is GIAC's first vid concerning this:
+
+https://www.youtube.com/watch?v=2x9lLHDbtDk
+
+Drill Down:
+
+I wanted to learn a bit about this feature. I studied the following documentation:
+
+https://docs.microsoft.com/en-us/power-bi/consumer/end-user-drill
+
+Here are some sample data sets that can be used to practice with on PBI:
+
+https://docs.microsoft.com/en-us/power-bi/sample-datasets
+
+Walked through the drill down samples using the provided 'retail' sample data set @ the 1st URL listed above.
